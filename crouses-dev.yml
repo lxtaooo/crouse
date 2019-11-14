@@ -6,7 +6,7 @@ spring:
     name: crouses
   datasource:
     name: db_crouse
-    url: jdbc:mysql://127.0.0.1:3306/db_crouse?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
+    url: jdbc:mysql://172.17.0.1:3306/db_crouse?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: 123456
 eureka:
