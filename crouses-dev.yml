@@ -6,13 +6,13 @@ spring:
     name: crouses
   datasource:
     name: db_crouse
-    url: jdbc:mysql://172.17.0.1:3306/db_crouse?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=true
+    url: jdbc:mysql://localhost:3306/db_crouse?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=true
     username: root
     password: 123456
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.17.0.2:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
 mybatis:
